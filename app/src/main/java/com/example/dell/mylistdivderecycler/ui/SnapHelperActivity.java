@@ -11,7 +11,7 @@ import com.example.dell.mylistdivderecycler.adapter.SnapHelperAdapter;
 
 import java.util.ArrayList;
 
-public class Main5Activity extends AppCompatActivity {
+public class SnapHelperActivity extends AppCompatActivity {
 
     private RecyclerView mRecyclerview;
     private ArrayList stringName;

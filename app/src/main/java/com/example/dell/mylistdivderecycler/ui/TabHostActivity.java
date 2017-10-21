@@ -11,7 +11,7 @@ import android.widget.Toast;
 
 import com.example.dell.mylistdivderecycler.R;
 
-public class Main4Activity extends AppCompatActivity {
+public class TabHostActivity extends AppCompatActivity {
 
     private TabWidget mTabs;
     private LinearLayout mTab1;
@@ -39,7 +39,7 @@ public class Main4Activity extends AppCompatActivity {
         mTabhost.setOnTabChangedListener(new TabHost.OnTabChangeListener() {
             @Override
             public void onTabChanged(String s) {
-                Toast.makeText(Main4Activity .this,""+s,Toast.LENGTH_SHORT).show();
+                Toast.makeText(TabHostActivity.this,""+s,Toast.LENGTH_SHORT).show();
             }
         });
 //

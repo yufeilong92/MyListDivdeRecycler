@@ -9,14 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ui.MainActivity" />
+        <activity android:name=".ui.RecyclerNoLineActivity" />
         <activity
-            android:name=".ui.Main2Activity"
+            android:name=".ui.RecyclerWithLineActivity"
             android:theme="@style/listdiverline" />
-        <activity android:name=".ui.Main3Activity"/>
-        <activity android:name=".ui.Main4Activity">
+        <activity android:name=".ui.HtmlActivity"/>
+        <activity android:name=".ui.TabHostActivity">
         </activity>
-        <activity android:name=".ui.Main5Activity">
+        <activity android:name=".ui.SnapHelperActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

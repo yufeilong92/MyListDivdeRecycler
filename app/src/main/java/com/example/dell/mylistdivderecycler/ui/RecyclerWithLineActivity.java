@@ -13,7 +13,7 @@ import com.example.dell.mylistdivderecycler.adapter.ReccyclerAdapter;
 
 import java.util.ArrayList;
 
-public class Main2Activity extends AppCompatActivity {
+public class RecyclerWithLineActivity extends AppCompatActivity {
 
     private RecyclerView mRecyclerviewone;
 

@@ -6,7 +6,7 @@ import android.webkit.WebView;
 
 import com.example.dell.mylistdivderecycler.R;
 
-public class Main3Activity extends AppCompatActivity {
+public class HtmlActivity extends AppCompatActivity {
 
     private WebView mWbContent;
 
@@ -43,6 +43,7 @@ public class Main3Activity extends AppCompatActivity {
                 "\n" +
                 "</html>";
         mWbContent.loadData(customHtml, "text/html", "UTF-8");
+
     }
 
     private void initView() {

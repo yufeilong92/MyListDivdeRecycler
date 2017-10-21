@@ -12,7 +12,7 @@ import com.example.dell.mylistdivderecycler.adapter.ReccyclerAdapter;
 
 import java.util.ArrayList;
 
-public class MainActivity extends AppCompatActivity {
+public class RecyclerNoLineActivity extends AppCompatActivity {
 
     private RecyclerView mRecyclerview;
     private ArrayList mDatalist;
@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void startintent(View view){
-         startActivity(new Intent(MainActivity.this,Main2Activity.class));
+         startActivity(new Intent(RecyclerNoLineActivity.this,RecyclerWithLineActivity.class));
     }
     private void initView() {
         mDatalist= getListData();

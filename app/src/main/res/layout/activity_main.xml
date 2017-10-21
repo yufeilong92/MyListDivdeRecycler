@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.dell.mylistdivderecycler.ui.MainActivity">
+    tools:context="com.example.dell.mylistdivderecycler.ui.RecyclerNoLineActivity">
 <Button
     android:text="跳转"
     android:onClick="startintent"
